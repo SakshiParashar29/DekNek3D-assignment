@@ -70,8 +70,8 @@ const Login = () => {
                         />
                     </div>
 
-                    <button type='submit' className='px-4 py-2 bg-blue-600 text-white rounded-md shadow-md' disabled={loading}>
-                        {loading ? 'Signing up...' : 'Sign In'}
+                    <button type='submit' className='px-4 py-2 bg-blue-600 text-white rounded-md shadow-md cursor-pointer' disabled={loading}>
+                        {loading ? 'Signing in...' : 'Sign In'}
                     </button>
 
                     <p>Don't have an account? <Link to="/register" className='text-blue-600'>Sign Up</Link></p>
